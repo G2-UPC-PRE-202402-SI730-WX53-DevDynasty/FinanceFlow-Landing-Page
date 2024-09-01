@@ -1,1 +1,1 @@
-# FinanceFlow-Landing-Page
+# Gastro Go - Landing Page
