@@ -100,14 +100,16 @@
 .image {
     margin-top: auto; 
 }
+
 .image img {
-    max-width: 322px;
-    max-height: 248px;
-    object-fit: cover;
-    margin: 0 auto;
-    display: block;
-    border-radius: 10px;
-    margin-bottom: 30px;
+  max-width: 322px;
+  max-height: 248px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  margin-top: 50px; 
+  margin-bottom: 30px;
 }
 
 .rowf {
