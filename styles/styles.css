@@ -81,17 +81,25 @@
   font-style: italic;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
 .containerh {
     background-color: var(--principal-color);
-    color: white;
+    color: var(--text-color);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .how-title {
-    color: white;
+    color: var(--text-color);
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 2rem;
 }
 
 .step {
@@ -103,18 +111,29 @@
 }
 
 .step-img {
-    max-width: 185px;
-    max-height: 290px;
-    margin: 15px;
+    max-width: 150px; 
+    max-height: 250px;
+    margin-bottom: 15px;
+    border-radius: 8px; 
 }
 
 .step-text {
     font-size: 14px;
+    font-weight: 500;
+    max-width: 220px;
+    color: var(--text-color);
 }
 
 .rowh {
-    max-width: 1400px;
+    max-width: 1200px; 
     justify-content: center;
-    margin: 10px;
+    margin: 0 auto;
     padding: 50px 0;
 }
+
+.arrow-img {
+    width: 120px; 
+    height: auto;
+    margin: 0 10px;
+}
+
