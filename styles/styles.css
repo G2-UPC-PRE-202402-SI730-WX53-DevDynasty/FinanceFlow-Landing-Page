@@ -81,6 +81,7 @@
   font-style: italic;
 }
 
+/*Plans section*/
 
 .container2{
   background-color: #1C8DA6;
@@ -109,6 +110,9 @@
 }
 
 .membership-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 310px;
   padding-top: 10px;
   background-color: #FAB091;
@@ -118,8 +122,31 @@
   margin-bottom: 20px;
   overflow: hidden;
   transition: all 0.3s ease;
-  text-align: center ;
+  text-align: center;
 }
+
+.membership-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto; 
+}
+
+.membership-card-content {
+  padding: 20px;
+  text-align: left;
+  color: black;
+  flex-grow: 1;
+}
+
+.price {
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #FFE6D8; 
+  margin-top: auto;
+}
+
 
 .membership-card:hover {
   transform: translateY(-5px);
@@ -136,23 +163,7 @@
   width: 200px;
   height: 200px;
   object-fit: cover;
-}
-
-.membership-card-content {
-  padding: 20px;
-  text-align: left;
-  color: black;
-}
-
-.price{
-  color: black;
-  text-align: center;
-  padding-top: 50px;
-}
-
-.membership-card h3 {
-  margin-top: 0;
-  color: #333;
+  margin: 0 auto; 
 }
 
 .membership-card p {
