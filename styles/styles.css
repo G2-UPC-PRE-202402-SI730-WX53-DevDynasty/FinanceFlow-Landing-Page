@@ -81,6 +81,8 @@
   font-style: italic;
 }
 
+/*Footer section*/
+
 .footer {
   display: flex;
   justify-content: space-around;
@@ -193,4 +195,19 @@ a:hover {
     width: 100%;
     border-radius: 5px;
   }
+  
+  .contact-us-content {
+    flex-direction: column;
+  }
+  
+  .contact-us-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us-form {
+    width: 100%;
+    margin-left: 0;
+  }
+  
 }
