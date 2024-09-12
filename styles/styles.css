@@ -80,6 +80,8 @@
   font-weight: 900;
   font-style: italic;
 }
+
+/*About us section*/
 .about-section {
   background-color: #FAEAE7;
   color: #333;
@@ -114,3 +116,4 @@
 .container.text-center h2 {
   margin-bottom: 40px;
 }
+
